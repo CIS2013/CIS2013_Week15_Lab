@@ -6,7 +6,6 @@ using namespace std;
 
 int main(){
 	
-	
 	string species;
 	int legs;
 	char alive;
@@ -38,5 +37,5 @@ int main(){
 	cout << users.describe()<< " with " << users.get_legs() << "legs" << endl;
 	cout << cat.describe() << " with " << cat.get_legs() << "legs" << endl;
 	
-	
+	return 0;
 }
