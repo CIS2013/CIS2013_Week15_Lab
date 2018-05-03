@@ -44,3 +44,7 @@ void Animal::set_species(string spec){
 string Animal::get_species(){
 	return species;
 }
+
+string Animal::describe(){
+	return species;
+}

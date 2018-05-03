@@ -19,4 +19,5 @@ class Animal {
 		bool get_alive();
 		void set_species(string);
 		string get_species();
+		string describe();
 };
